@@ -1,4 +1,4 @@
-Expo framework provides a very good readme to test the app. So im not deleting this data. You can followe along and you are ready to go.
+Expo framework provides a very good readme to test the app. So im not deleting this data. You can follow along and you are ready to go.
 
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
