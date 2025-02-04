@@ -13,6 +13,7 @@ import Button from "@/components/Button/Button";
 import Question from "@/components/Question/Question";
 import { CategoryType, QuestionType } from "@/types/types";
 import { fetchCategories, fetchQuestions } from "@/api";
+import { Colors } from "@/constants/Colors";
 
 const API_URL = "https://opentdb.com/api.php?amount=10&type=multiple";
 const CATEGORY_URL = "https://opentdb.com/api_category.php";
@@ -118,7 +119,7 @@ export default function HomeScreen() {
           <Button
             title="Go to Main Page"
             onPress={() => setQuizFinished(false)}
-            style={{ backgroundColor: "green" }}
+            style={{ backgroundColor: Colors.green }}
           />
         </View>
       ) : (
