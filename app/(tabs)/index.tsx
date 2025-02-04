@@ -1,12 +1,8 @@
-import { StyleSheet } from "react-native";
-
 import { useEffect, useState } from "react";
 import {
   View,
   Text,
-  TouchableOpacity,
   ActivityIndicator,
-  FlatList,
 } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import Button from "@/components/Button/Button";
@@ -14,9 +10,6 @@ import Question from "@/components/Question/Question";
 import { CategoryType, QuestionType } from "@/types/types";
 import { fetchCategories, fetchQuestions } from "@/api";
 import { Colors } from "@/constants/Colors";
-
-const API_URL = "https://opentdb.com/api.php?amount=10&type=multiple";
-const CATEGORY_URL = "https://opentdb.com/api_category.php";
 
 export default function HomeScreen() {
   const [questions, setQuestions] = useState<QuestionType[]>([]);
