@@ -1,3 +1,4 @@
+import { Colors } from "@/constants/Colors";
 import { QuestionProps } from "@/types/propTypes";
 import {
   Text,
@@ -27,7 +28,7 @@ const Question = ({ question, answers, onAnswer }: QuestionProps) => (
 
 const styles = StyleSheet.create({
   answerButton: {
-    backgroundColor: "#D3D3D3",
+    backgroundColor: Colors.lightGray,
     padding: 20,
     margin: 10,
     borderRadius: 8,

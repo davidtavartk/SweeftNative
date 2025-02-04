@@ -1,3 +1,4 @@
+import { Colors } from "@/constants/Colors";
 import { ButtonProps } from "@/types/propTypes";
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
@@ -10,8 +11,8 @@ const Button = ({ title, onPress, style }: ButtonProps) => (
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: "blue",
-    padding: 14,
+    backgroundColor: Colors.blue,
+    padding: 18,
     marginTop: 20,
     borderRadius: 8,
   },
